@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaun Yates - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #00695c;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .social-links a {
+            color: #004d40;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        .background {
+            padding: 50px;
+            text-align: center;
+            color: white;
+            background-size: cover;
+            background-position: center;
+        }
+        .mountains {
+            background-image: url('https://example.com/mountains-background.jpg');
+        }
+        .ocean {
+            background-image: url('https://example.com/ocean-background.jpg');
+        }
+        .fitness {
+            background-color: #f0f4c3;
+            color: #33691e;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Shaun Yates</h1>
+        <p>Welcome to my personal webpage</p>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Shaun Yates. I'm passionate about keeping fit and bike riding. I enjoy spending time outdoors and exploring nature on my bike.</p>
+        </div>
+        <div class="section">
+            <h2>Interests</h2>
+            <p>Keeping fit and bike riding are my primary interests. I believe in maintaining a healthy lifestyle and love the sense of freedom and adventure that comes with biking.</p>
+        </div>
+        <div class="section">
+            <h2>Connect with Me</h2>
+            <div class="social-links">
+                <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="background mountains">
+            <h2>Mountains</h2>
+            <p>Exploring the majestic mountains on my bike is one of my favorite activities. The fresh air and stunning views are unparalleled.</p>
+        </div>
+        <div class="background ocean">
+            <h2>Ocean</h2>
+            <p>The ocean is another place where I love to ride. The sound of the waves and the ocean breeze create a perfect environment for a refreshing bike ride.</p>
+        </div>
+        <div class="section fitness">
+            <h2>Fitness & Health Simulation</h2>
+            <p>Staying fit is crucial for a healthy lifestyle. I engage in various fitness simulations and activities to keep myself in top shape. Join me in exploring different workouts and health tips.</p>
+        </div>
+    </div>
+</body>
+</html>
